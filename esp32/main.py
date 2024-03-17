@@ -58,8 +58,8 @@ def connect_to_server(oled, host, port):
 
 # 主函數
 def main():
-    ssid = 'HITRON-57F0-2.4G'
-    password = '0229328386'
+    ssid = ''
+    password = ''
     connect_wifi(ssid, password)
     oled = init_oled()
     host = '192.168.0.10'  # 伺服器IP
