@@ -46,7 +46,7 @@ def send_weather_data_over_socket(data, host, port):
                 print("已發送消息:", message) #沒有數據接收結束
 
 # 使用OpenWeatherMap API密鑰和城市名
-api_key = '95a09082dafd88d8c93df38eebf4dfb7'
+api_key = '95a09082dafd88d8c93df38eebf4****'
 city_name = 'Taipei'
 data = fetch_weather_forecast(api_key, city_name)
 daily_summary = process_weather_data(data)
